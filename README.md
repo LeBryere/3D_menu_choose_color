@@ -49,4 +49,5 @@ If you want to use this code, you need to insert it into your website code and r
 
 ## Copyright and License
 
-Copyright 2022 Lebryere. Code released under the [MIT](https://raw.githubusercontent.com/LeBryere/3D_menu_choose_color/master/LICENSE) license.
+Copyright 2022 Lebryere. Code released under the [![GitHub license](https://img.shields.io/badge/license-MIT-green?&style=plastic)](https://raw.githubusercontent.com/LeBryere/3D_menu_choose_color/master/LICENSE)
+ license.
