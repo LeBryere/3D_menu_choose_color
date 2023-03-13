@@ -1,4 +1,4 @@
-# [3D menu](https://lebryere.github.io/3D_menu_choose_color/)
+# [3D menu choose color](https://lebryere.github.io/3D_menu_choose_color/)
 
 ## Browser Support
 
