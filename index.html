@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <title>LeBryere 3D menu</title>
+   <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=yes" />
+   <meta name="description" content="creative 3D menu with color selection" />
+   <meta name="keywords" content="3D menu, creative menu, menu, css, html, web design" />
+   <meta name="theme-color" content="#323a53" />
+   <meta name="author" content="LeBryere">
+
+   <meta property="og:title" content="LeBryere 3D menu" />
+   <meta property="og:site_name" content="LeBryere 3D menu" />
+   <meta property="og:description" content="creative 3D menu with color selection" />
+   <meta property="og:url" content="https://lebryere.com" />
+   <meta property="og:type" content="article" />
+
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+   <meta http-equiv="Content-Language" content="hu" />
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+   <meta content="ie=edge" http-equiv="x-ua-compatible" />
+
+   <link rel="shortcut icon" type="png" href="./favicon.png" />
+   <link rel="icon" href="./favicon.png" />
+
+   <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+   <div class="choose_main">
+      <div class="choose_button">
+         <button onclick="choosecolor()">Choose your colors</button>
+      </div>
+      <div class="choose_colors">
+         <div class="block">
+            <div class="choose_color">
+               <label>Background</label>
+               <input id="bg_color" type="color" value="#323a53">
+            </div>
+            <div class="choose_color">
+               <label>Text</label>
+               <input id="text_color" type="color" value="#d1f0ff">
+            </div>
+         </div>
+         <div class="block">
+            <div class="choose_color">
+               <label>Color</label>
+               <input id="choose_color" type="color" value="#373e53">
+            </div>
+            <div class="choose_color">
+               <label>Color 2</label>
+               <input id="choose_color_2" type="color" value="#12151f">
+            </div>
+         </div>
+         <div class="block">
+            <div class="choose_color">
+               <label>Hover</label>
+               <input id="hover_1" type="color" value="#ff5900">
+            </div>
+            <div class="choose_color">
+               <label>Hover 2</label>
+               <input id="hover_2" type="color" value="#791b01">
+            </div>
+         </div>
+      </div>
+   </div>
+
+   <button class="click_me" onclick="click_me()">When you are ready, cilck me!</button>
+   
+   <div id="menu_3d">
+      <div class="menu_class">
+         <section class="first_layer"><a href="#">home</a>
+            <ion-icon name="home-outline"></ion-icon>
+         </section>
+      </div>
+      <div class="menu_class">
+         <section class="first_layer"><a href="#">products</a>
+            <ion-icon name="library-outline"></ion-icon>
+         </section>
+      </div>
+      <div class="menu_class">
+         <section class="first_layer"><a href="#">future</a>
+            <ion-icon name="telescope-outline"></ion-icon>
+         </section>
+      </div>
+      <div class="menu_class">
+         <section class="first_layer"><a href="#">contact</a>
+            <ion-icon name="mail-open-outline"></ion-icon>
+         </section>
+      </div>
+      <div class="menu_class">
+         <section class="first_layer"><a href="#">about us</a>
+            <ion-icon name="accessibility-outline"></ion-icon>
+         </section>
+      </div>
+   </div>
+
+   <div class="content_holder">
+      <div class="content">
+         your<br> content
+      </div>
+   </div>
+   
+</body>
+
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script src="./js/main.js"></script>
+
+</html>
